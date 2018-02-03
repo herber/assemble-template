@@ -1,4 +1,4 @@
-# Assemble-template [![Build Status](https://travis-ci.org/herber/assemble-template.svg?branch=master)](https://travis-ci.org/herber/assemble-template)
+# Assemble-template [![Build Status](https://travis-ci.org/herber/assemble-template.svg?branch=master)](https://travis-ci.org/herber/assemble-template) [![codecov](https://codecov.io/gh/herber/assemble-template/branch/master/graph/badge.svg)](https://codecov.io/gh/herber/assemble-template)
 
 Assemble the string / value pieces a tagged template literal - function receives as params.
 
