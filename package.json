@@ -1,0 +1,41 @@
+{
+	"name": "assemble-template",
+	"version": "1.0.0",
+	"description": "A little helper for tagged template functions",
+	"license": "MIT",
+	"repository": "herber/assemble-template",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "formatted && jest"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"assemble",
+		"template",
+		"assembleTemplate"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"codecov": "^3.0.0",
+		"formatted": "^1.0.0",
+		"jest": "^22.1.4",
+		"nyc": "^11.4.1"
+	},
+	"jest": {
+		"collectCoverage": true,
+		"coverageDirectory": "./coverage",
+		"coverageReporters": [
+			"lcov",
+			"text"
+		]
+	}
+}
